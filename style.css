@@ -1,0 +1,639 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* header section */
+.headerdiv{
+    height: 50px;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.headerdiv a:nth-child(1){
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.headerdiv a:nth-child(2){
+    margin-left: 350px;
+    color: white;
+    text-decoration: none;
+}
+.headerdiv a:nth-child(3){
+    margin-left: 400px;
+    color: white;
+    text-decoration: none;
+}
+#location{
+    color: yellow;
+}
+#telepone{
+    color: yellow;
+}
+#envelope{
+    color: yellow;
+}
+
+
+
+.headerdiv2{
+    background-image: url(img/hero-bg.jpg);
+    height: 700px;
+}
+.headerdiv2 nav{
+    display: flex;
+    gap: 50px;
+    margin-left: 900px;
+    position: relative;
+    z-index: 1;
+}
+.headerdiv2 nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.headerdiv2 h1 a{
+    color: white;
+    text-decoration: none;
+    position: relative;top: 30px;left: 120px;
+}
+.headerdiv2 nav a:hover{
+    background-color: black;
+    
+}
+.headerdiv2 nav a:nth-child(1){
+    background-color: black;
+}
+
+
+.headerdiv3 h2{
+    font-size: 50px;
+    color: white;
+}
+.headerdiv3 span{
+    color: yellow;
+}
+.headerdiv3 p{
+    color: white;
+    font-size: 25px;
+}
+.headerdiv3 .btn1{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.headerdiv3 .btn1:hover{
+    background: none;
+    color: white;
+    transition: .3s;
+}
+.headerdiv3 .btn2{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+.headerdiv3 .btn2:hover{
+    background: none;
+    color: yellow;
+    transition: .3s;
+}
+.yellowbtn1{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+
+.yellowbtn2{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.yellowbtns{
+    margin-top: 100px;
+    margin-left: 1300px;
+    position: relative;
+    z-index: 1;
+}
+.headerdiv3{
+    margin-left: 300px;
+    margin-top: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.headerdiv3.active{
+    margin-left: 10px;
+    transition: .4s;
+    opacity: 0;
+}
+
+
+.blackbackground{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 0;
+}
+.headerdiv4{
+    position: relative;
+    z-index: 1;
+    margin-left: 800px;
+    margin-top: -278px; 
+    visibility: hidden; 
+}
+
+.headerdiv4.active{
+    margin-left: 300px;
+    transition: .4s;
+    visibility: visible;
+}
+
+
+.headerdiv4 h2{
+    font-size: 50px;
+    color: white;
+}
+.headerdiv4 span{
+    color: yellow;
+}
+.headerdiv4 p{
+    color: white;
+    font-size: 25px;
+}
+.headerdiv4 .btn1{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.headerdiv4 .btn1:hover{
+    background: none;
+    color: white;
+    transition: .3s;
+}
+.headerdiv4 .btn2{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+.headerdiv4 .btn2:hover{
+    background: none;
+    color: yellow;
+    transition: .3s;
+}
+
+/* header section finished */
+
+
+/* section hwo are we */
+
+#who_are_we{
+    width: 600px;
+    height: 330px;
+    margin-left: 730px;
+    margin-top: -370px;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.who_are_we img{
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: relative;
+    z-index: -1;
+}
+#who_are_we hr{
+    width: 50px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+#who_are_we p{
+    margin-top: 10px;
+}
+#who_are_we button{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+    font-size: 15px;
+}
+#who_are_we button:hover{
+    background-color: white;
+    color: yellow;
+    border: 1px solid yellow;
+    transition: .5s;
+}
+
+/* section hwo are we finished */
+
+
+
+
+/* section our_services */
+
+.our_services .allservices{
+    display: flex;
+    margin-left: -80px;
+}
+.our_services{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    margin-top: 100px;
+}
+.our_services h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+.our_services hr{
+    width: 50px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 750px;
+}
+.our_services .home_security{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-top: 70px;
+}
+.our_services .home_security img{
+    width: 50px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.our_services .home_security h2{
+    color: black;
+    font-size: 20px;
+}
+.our_services .home_security p{
+    text-align: center;
+}
+.our_services .home_security button{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.our_services .home_security button:hover{
+    background-color: white;
+    color: yellow;
+    border: 1px solid yellow;
+    transition: .5s;
+}
+
+
+
+
+/* section our_services finished */
+
+
+
+/* section WHAT_IS_SAYS_OUR_CLIENTS */
+
+
+.WHAT_IS_SAYS_OUR_CLIENTS{
+    margin-top: 50px;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS hr{
+    width: 40px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 730px;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .client img{
+    width: 150px;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .client{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.WHAT_IS_SAYS_OUR_CLIENTS .client.active{
+    margin-left: -200px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.WHAT_IS_SAYS_OUR_CLIENTS .client h3{
+    margin-top: 20px;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .client p{
+    margin-top: 10px;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .fas{
+    position: relative;top: 150px;left: 300px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    padding-left: 12px;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .fas:hover{
+    background-color: yellow;
+    transition: .5s;
+    border: 1px solid yellow;
+}
+#rightarrow{
+    margin-left: 900px;
+    cursor: pointer;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .client2 img{
+    width: 150px;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .client2{
+    text-align: center;
+    margin-top: -205px;
+    margin-left: 700px;
+    visibility: hidden;
+}
+
+.WHAT_IS_SAYS_OUR_CLIENTS .client2.active{
+   margin-left: 0px;
+    visibility: visible;
+    transition: .5s;
+}
+
+
+
+.WHAT_IS_SAYS_OUR_CLIENTS .client2 h3{
+    margin-top: 20px;
+}
+.WHAT_IS_SAYS_OUR_CLIENTS .client2 p{
+    margin-top: 10px;
+}
+
+/* section WHAT_IS_SAYS_OUR_CLIENTS finished */
+
+
+
+
+
+/* section GET_IN_TOUCH */
+
+.GET_IN_TOUCH{
+    background-image: url(img/contact-bg.jpg);
+    height: 600px;
+    margin-top: 100px;
+}
+.GET_IN_TOUCH h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.GET_IN_TOUCH hr{
+    width: 40px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 730px;
+}
+.GET_IN_TOUCH form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+}
+.GET_IN_TOUCH form input{
+    height: 40px;
+    width: 700px;
+    margin-left: 400px;
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+.GET_IN_TOUCH form input:nth-child(4){
+    height: 120px;
+}
+/* 
+.GET_IN_TOUCH form input:nth-child(5){
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.GET_IN_TOUCH button:hover{
+    background-color: white;
+    color: yellow;
+    transition: .5s;
+}
+ */
+#send{
+    width: 200px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+    margin-left: 700px;
+}
+#send:hover{
+    background-color: white;
+    color: yellow;
+    transition: .5s;
+}
+
+
+/* section GET_IN_TOUCH finished */
+
+/* section OUR_GUARDS */
+
+.OUR_GUARDS h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+.OUR_GUARDS hr{
+    width: 40px;
+    height: 5px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 730px;
+}
+.OUR_GUARDS p{
+    margin-top: 30px;
+    text-align: center;
+}
+.OUR_GUARDS .guarderimgs img{
+    width: 350px;
+    height: 450px;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.OUR_GUARDS button{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.OUR_GUARDS button:hover{
+    background-color: white;
+    color: yellow;
+    transition: .5s;
+}
+
+/* section OUR_GUARDS finished */
+
+
+
+/* footer section */
+footer{
+    height: 400px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+}
+footer .footerguarder{
+    color: white;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+footer .footerguarder p{
+    padding-top: 30px;
+}
+footer .footerguarder a{
+    color: white;
+    text-decoration: none;
+}
+footer .footerUsefulLink{
+    color: white;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+footer .footerUsefulLink p{
+    padding-top: 30px;
+}
+footer .ContactUs{
+    color: white;
+    padding-top: 100px;
+    margin-left: 150px;
+}
+footer .ContactUs a{
+    color: white;
+    text-decoration: none;
+}
+footer .ContactUs a i{
+    padding-top: 30px;
+}
+.ContactUsdiv{
+    display: flex;
+    flex-direction: column;
+}
+footer .Newsletter{
+    display: flex;
+    flex-direction: column;
+}
+footer .Newsletter h2{
+    color: white;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+footer .Newsletter input{
+    margin-left: 150px;
+    margin-top: 30px;
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+footer .Newsletter button{
+    margin-left: 150px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 50px;
+    width: 100px;
+    color: white;
+    background-color: yellow;
+    cursor: pointer;
+    border: 1px solid yellow;
+    font-weight: bold;
+}
+.socialmediaicons a{ 
+    color: white;
+}
+.socialmediaicons{
+    margin-left: -250px;
+    margin-top: 280px;
+}
+.lastp{
+    color: white;
+    margin-left: -800px;
+    margin-top: 330px;
+}
+
+
+/* footer section finished */
+
+
